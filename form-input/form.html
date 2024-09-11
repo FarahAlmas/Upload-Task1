@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume Form</title>
   <link rel="stylesheet" href="formStyle.css">
-  <link href="../index.html">
 </head>
+
 <body>
   <!-- Header -->
   <header class="header">
@@ -18,7 +19,7 @@
 
   <!-- Main Content -->
   <main class="main">
-    <form action="resume.html" class="resume-form">
+    <form id="resumeForm" class="resume-form">
       <!-- Personal Info Section -->
       <section class="form-section">
         <h2>Personal Info</h2>
@@ -41,6 +42,7 @@
         <div class="input-group">
           <label for="profile-pic">Profile Picture</label>
           <input type="file" id="profile-pic" name="profile-pic" accept="image/*">
+          <br>
         </div>
       </section>
 
@@ -96,7 +98,9 @@
       </section>
 
       <!-- Submit Button -->
-      <button type="submit" class="submit-btn">Generate Resume</button>
+      <a href="../simple_layout/simpleLayout.html">
+        <button type="button" id="generateResumeBtn" class="submit-btn">Generate Resume</button>
+      </a>
     </form>
   </main>
 
@@ -105,5 +109,6 @@
     <p>Developed and Designed by Farah Almas</p>
   </footer>
 </body>
-<script src="form.js"></script>
+<script src="formScript.js"></script>
+
 </html>

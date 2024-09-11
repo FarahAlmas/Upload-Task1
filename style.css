@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, rgba(40, 0, 32, 0.8), rgba(120, 12, 64, 0.8), rgb(217, 60, 222));
+  background: linear-gradient(135deg, rgba(162, 20, 228, 0.8), rgba(13, 192, 242, 0.8), rgb(155, 125, 229));
   font-family: 'Poppins', sans-serif;
   padding: 20px;
   color: #333;
@@ -35,12 +35,13 @@ body {
   text-transform: uppercase;
   letter-spacing: 5px;
   margin-bottom: 10px;
+  text-decoration: underline;
   color: #fff;
 }
 
 .container {
   width: 90%;
-  border: 4px solid white;
+  border: 5px solid white;
   border-radius: 20px;
   padding: 15px;
   background: rgba(255, 255, 255, 0.2);
@@ -127,7 +128,7 @@ body {
 }
 
 .link {
-  color: #9bccbb;
+  color: #32548f;
   transition: color 0.2s ease-out;
 }
 
@@ -140,6 +141,7 @@ body {
   .layout-section {
     flex-direction: column;
     gap: 20px;
+    margin-left: 100px;
   }
 
   .layout-option {
